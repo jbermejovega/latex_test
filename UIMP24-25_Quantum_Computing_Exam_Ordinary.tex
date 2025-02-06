@@ -1,5 +1,3 @@
-%% LyX 2.4.0~RC3 created this file.  For more info, see https://www.lyx.org/.
-%% Do not edit unless you really know what you are doing.
 \documentclass[catalan,spanish,english]{exam}
 \usepackage[T1]{fontenc}
 \usepackage[latin9,utf8]{inputenc}
@@ -41,8 +39,8 @@
 
 
 
-To be returned to the course instructors by February 7th, 2025, 10:00 am (Madrid timezone) via the institutional UIMP email in the virtual campus. Ideally, send it as an attachment of a single email to all course instructors..
 
+To be returned to the course instructors by February 7th, 2025, 10:00 am (Madrid timezone) via the institutional UIMP email in the virtual campus. Ideally, send it as an attachment of a single email to all course instructors..
 
 \paragraph{Problem 1 (Quantum Gates).}
 
@@ -104,7 +102,7 @@ In short, $Y$ is Hermitian and  identical to $X$ via the unitary change of basis
     \item (A different phase-flip code). Show that the repetition code with stabilizer operators $\{ Y_1Y_2, Y_2Y_3\}$ can detect and correct single-qubit Pauli $Z$ errors of the form  $\mathcal{E}_Z(\rho)= p \rho + (1-p) Z \rho Z $. Describe a quantum circuit for measuring the parity operator $Y_1Y_2$ of this code.
     \item   (A quantum ``$Y$-flip'' code).  An experimentalist team has built a faulty quantum computer where qubits are affected by a noise process $\mathcal{E}_Y(\rho)= p \rho + (1-p) Y \rho Y $. Argue that the quantum ``$Y$-flip'' code with stabilizer generators $\{ Z_1Z_2, Z_2Z_3\}$ can detect and correct single-qubit Pauli $Y$ errors.
     \item (A different Bacon-Shor code). Concatenate the repetition code $\{ Y_1Y_2, Y_2Y_3\}$ with the  bit-flip code $\{ Z_1Z_2, Z_2Z_3\}$ to define a modified 9-qubit Bacon-Shor code with stabilizer generators 
-  $Z_1 Z_2$, $Z_2Z_3$, $Z_4_Z_5$, $Z_5Z_6$, $Z_7 Z_8$, $Z_8Z_9$, $Y_1Y_2Y_3Y_4Y_5Y_6$, and $Y_4Y_5Y_6 Y_7 Y_8 Y_9$. Argue that this code can correct all single-qubit errors of arbitrary form. (Recall that $\{I, X, Y, Z\}$, the four Pauli matrices, define an operator basis for a single qubit, i.e., any Kraus operator $K$ associated to a single-qubit error can be written as a linear combination $K= a_I I + a_X X + a_Y Y + a_Z Z$ with complex coefficients.)
+  $Z_1 Z_2$, $Z_2Z_3$, $Z_4 Z_5$, $Z_5Z_6$, $Z_7 Z_8$, $Z_8Z_9$, $Y_1Y_2Y_3Y_4Y_5Y_6$, and $Y_4Y_5Y_6 Y_7 Y_8 Y_9$. Argue that this code can correct all single-qubit errors of arbitrary form. (Recall that $\{I, X, Y, Z\}$, the four Pauli matrices, define an operator basis for a single qubit, i.e., any Kraus operator $K$ associated to a single-qubit error can be written as a linear combination $K= a_I I + a_X X + a_Y Y + a_Z Z$ with complex coefficients.)
     %\item  ($Z$ errors in the bit-flip code). Convince yourself that the 3-qubit quantum bit-flip code cannot correct phase-flip errors. To this end, show that measuring the parity operators $Z_1 Z_2$, $Z_2 Z_3$ cannot detect whether a $Z$ error happened. (You may do so by using the simple quantum error correction conditions for stabilizer codes, or by evaluating the action of the errors and measurements on codewords.)
     \item The quantum experimentalists team reports that some mysterious damage has occurred to their  quantum computer. We observe that now there is a faulty qubit that is affected by both $X$ and $Y$ errors with even probability: $\mathcal{E}_{X,Y}(\rho)= p \rho + (1-p)/2 (X\rho X + Y \rho Y)$, with $p>0$. On the other hand, $Z$-errors never occur. Answer: can we use the ``Y-flip code'' to correct these errors? Is it possible to  distinguish $X$ and $Y$ errors  by measuring the parity operators  $Z_1 Z_2$, $Z_2 Z_3$?
 \end{enumerate}
