@@ -1,6 +1,8 @@
 
 # $\LaTeX$ with GitHub, VS Code and Zotero for research teams
 
+COMENTARIO
+
 This small tutorial teaches you how to use LaTeX effectively with VS Code, Zotero and GitHub. Follow the steps below to set-up an environment to these tools to your LaTeX projects. The result will be a clean modern LaTeX environment with GitHub's version control capabilities and Zotero's power to manage bibliographies. The proposed set-up is well suited for collaborative projects in research & academic teams: you may use it for, e.g., efficient grant writing, grant proposals or preparing reports. The combination of these open-source tools offers a powerful alternative that supersedes commercial alternatives with locked premium features, such as Overleaf.
 
 # Workflow & requirements
